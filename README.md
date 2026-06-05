@@ -35,6 +35,9 @@
 
 ## ⚙️ Как это работает
 
+### 🗺️📍 Блок-схема
+![workflow основной block diagram](screenshots/block_diagram.png)
+
 ## 🛠 Технологии
 - **n8n** (self-hosted или облачная версия) — оркестрация workflow
 - **Google Sheets API** — хранение данных креативов, логов аудита, ошибок

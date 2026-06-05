@@ -76,7 +76,7 @@
 ![Canvas основной workflow](screenshots/canvas.png)
 
 ### Canvas обработчика ошибок
-![Обработчик ошибок](screenshots/canvas_error.png)
+![Обработчик ошибок](screenshots/error_handler_canvas.png)
 
 ### Пример выполнения (Executions)
 ![Executions](screenshots/execution.png)

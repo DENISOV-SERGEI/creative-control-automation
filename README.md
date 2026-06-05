@@ -76,7 +76,7 @@
 ![Canvas основной workflow](screenshots/canvas.png)
 
 ### Canvas обработчика ошибок
-![Обработчик ошибок canvas]([screenshots/canvas_error.png](https://github.com/DENISOV-SERGEI/creative-control-automation/blob/main/screenshots/canvas_erorr.png))
+![Обработчик ошибок canvas](https://github.com/DENISOV-SERGEI/creative-control-automation/blob/main/screenshots/canvas_erorr.png)
 
 ### Пример выполнения (Executions)
 ![Executions](screenshots/execution.png)

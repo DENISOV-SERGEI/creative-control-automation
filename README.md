@@ -76,7 +76,7 @@
 ![Canvas основной workflow](screenshots/canvas.png)
 
 ### Canvas обработчика ошибок
-![Обработчик ошибок](screenshots/error_handler_canvas.png)
+![Обработчик ошибок](screenshots/canvas_error.png)
 
 ### Пример выполнения (Executions)
 ![Executions](screenshots/execution.png)
@@ -87,23 +87,20 @@
 ### Google Sheets: после отключения
 ![creatives_monitor после](screenshots/google_sheet_after.png)
 
-### Audit Log (таблица аудита)
-![Audit Log](screenshots/audit_log.png)
+### Google Sheets: таблица аудита
+![Audit Log](screenshots/google_sheet_audit_log.png)
 
 ### Telegram: уведомление об отключении
 ![Telegram отключение](screenshots/telegram_deactivated.png)
 
-### Telegram: предупреждение за 3 дня
-![Telegram предупреждение](screenshots/telegram_warning.png)
-
-### Telegram: уведомление об ошибке (администратору)
-![Telegram ошибка](screenshots/telegram_error.png)
+### Telegram: предупреждение за 3 дня / уведомление об ошибке (администратору)
+![Telegram предупреждение/уведомление](screenshots/telegram_warning_end_erorr.png)
 
 ## 🤝 Контакты
 По вопросам внедрения, доработки или консультации:
 
-- **Telegram**: [@ваш_username](https://t.me/ваш_username)
-- **Email**: ваш_email@example.com
+- **Telegram**: [@PyeBuTT]https://t.me/+uvg_FV2EXQE0MWMy)
+- **Email**: denisov.sergy@gmail.com
 
 ---
 

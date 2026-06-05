@@ -34,3 +34,77 @@
 - имеет встроенный **обработчик ошибок** — при сбое администратор получает сообщение, ошибка записывается в таблицу
 
 ## ⚙️ Как это работает
+
+## 🛠 Технологии
+- **n8n** (self-hosted или облачная версия) — оркестрация workflow
+- **Google Sheets API** — хранение данных креативов, логов аудита, ошибок
+- **Telegram Bot API** — уведомления маркетологу и администратору
+- **JavaScript (Luxon)** — обработка дат, сравнение, форматирование
+
+## 📊 Результаты для бизнеса
+| Метрика | До автоматизации | После автоматизации |
+|---------|------------------|----------------------|
+| Показы просроченных акций | ✅ были | ❌ исключены |
+| Ручная работа маркетолога (в день) | 30–60 минут | 0 минут |
+| Время реакции на истечение срока | от нескольких часов до дней | мгновенно (в 11:00) |
+| История отключений | нет | полный аудит |
+| Уведомления о сбоях | нет | Telegram + лог |
+
+## 📁 Файлы проекта
+| Файл | Описание |
+|------|----------|
+| `workflows/Final_Project_Creative_Control.json` | Основной workflow (отключение + предупреждения) |
+| `workflows/Error_Handler_Creative_Control.json` | Обработчик ошибок |
+| `docs/technical_specification.md` | Техническое задание |
+| `docs/user_manual.md` | Инструкция по эксплуатации |
+| `docs/report.md` | Отчёт по проекту |
+
+## 🧪 Инструкция по запуску (кратко)
+1. Установите n8n (self-hosted или используйте облачную версию).
+2. Импортируйте два JSON-файла в n8n.
+3. Настройте подключения к Google Sheets (OAuth2) и Telegram Bot.
+4. Создайте Google-таблицы с указанными листами и колонками (см. ТЗ).
+5. Активируйте основной workflow и обработчик ошибок.
+6. Настройте расписание в узле Schedule Trigger.
+7. Готово! Автоматизация будет запускаться ежедневно.
+
+Подробная инструкция — в `docs/user_manual.md`.
+
+## 📸 Скриншоты
+
+### Canvas workflow (основной)
+![Canvas основной workflow](screenshots/canvas.png)
+
+### Canvas обработчика ошибок
+![Обработчик ошибок](screenshots/error_handler_canvas.png)
+
+### Пример выполнения (Executions)
+![Executions](screenshots/execution.png)
+
+### Google Sheets: исходная таблица креативов
+![creatives_monitor до](screenshots/google_sheet_before.png)
+
+### Google Sheets: после отключения
+![creatives_monitor после](screenshots/google_sheet_after.png)
+
+### Audit Log (таблица аудита)
+![Audit Log](screenshots/audit_log.png)
+
+### Telegram: уведомление об отключении
+![Telegram отключение](screenshots/telegram_deactivated.png)
+
+### Telegram: предупреждение за 3 дня
+![Telegram предупреждение](screenshots/telegram_warning.png)
+
+### Telegram: уведомление об ошибке (администратору)
+![Telegram ошибка](screenshots/telegram_error.png)
+
+## 🤝 Контакты
+По вопросам внедрения, доработки или консультации:
+
+- **Telegram**: [@ваш_username](https://t.me/ваш_username)
+- **Email**: ваш_email@example.com
+
+---
+
+⭐ Если проект оказался полезным, поставьте звезду репозиторию!
